@@ -23,5 +23,5 @@ public abstract class Vehicle {
         }
     }
 
-    protected abstract void accelerate();
+    abstract void accelerate();
 }

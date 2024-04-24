@@ -7,8 +7,8 @@ public class Main {
 
 //        toyota.start();
 //        toyota.drive();
-//        tesla.start();
+        tesla.start();
 //        tesla.accelerate();
-//        tesla.drive();
+        tesla.drive();
     }
 }
