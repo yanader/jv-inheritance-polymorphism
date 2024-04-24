@@ -4,12 +4,11 @@ public class Cube extends Shape3D{
     double size;
 
     public Cube(double size) {
-        this.size = size;
-        this.base = new Rectangle(size, size);
+        this(size, new Rectangle(size, size));
     }
 
-    private Cube(Rectangle base) {
-        this.size = base.length;
+    private Cube(double size, Rectangle base) {
+        this.size = size;
         this.base = base;
     }
 
