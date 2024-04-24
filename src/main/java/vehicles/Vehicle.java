@@ -10,4 +10,18 @@ public abstract class Vehicle {
         this.make = make;
         this.model = model;
     }
+
+    public void start() {
+        engine.start();
+    }
+
+    public void drive() {
+        if (engine.running) {
+            accelerate();
+        } else {
+            System.out.println(make + " " + model + " is not running.");
+        }
+    }
+
+    protected abstract void accelerate();
 }
