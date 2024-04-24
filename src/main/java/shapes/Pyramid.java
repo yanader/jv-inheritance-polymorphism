@@ -3,7 +3,7 @@ package shapes;
 public class Pyramid extends Shape3D {
     double height;
 
-    public Pyramid(double height, Shape base) {
+    public Pyramid(Shape base, double height) {
         this.height = height;
         this.base = base;
     }

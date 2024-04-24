@@ -8,10 +8,10 @@ public class Main {
                 new Rectangle(2, 5),
                 new Triangle(3, 7)
         );
-//
-//        for (Shape shape : shapes) {
-//            System.out.println(shape.getClass().getSimpleName() + " area = " + shape.calculateArea());
-//        }
+
+        for (Shape shape : shapes) {
+            System.out.println(shape.getClass().getSimpleName() + " area = " + shape.calculateArea());
+        }
 
         List<Shape3D> shapes3d = new ArrayList<>(List.of(new Cube(5)));
 
@@ -27,7 +27,7 @@ public class Main {
                 shapes3d.add(new Prism(shape, 5));
                 shapes3d.add(new Pyramid(shape, 5));
             }
-
+//
         }
 
         for (Shape3D shape3d : shapes3d) {

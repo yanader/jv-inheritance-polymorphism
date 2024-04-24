@@ -5,11 +5,12 @@ public class Cube extends Shape3D{
 
     public Cube(double size) {
         this.size = size;
-        new Cube(new Rectangle(size, size));
+        this.base = new Rectangle(size, size);
     }
 
     private Cube(Rectangle base) {
-
+        this.size = base.length;
+        this.base = base;
     }
 
     @Override

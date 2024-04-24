@@ -3,7 +3,7 @@ package shapes;
 public class Cone extends Shape3D{
     double height;
 
-    public Cone(double height, Circle base) {
+    public Cone(Circle base, double height) {
         this.height = height;
         this.base = base;
     }
