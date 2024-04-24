@@ -11,4 +11,9 @@ public class Cube extends Shape3D{
     private Cube(Rectangle base) {
 
     }
+
+    @Override
+    protected double calculateVolume() {
+        return Math.pow(size , 3);
+    }
 }
